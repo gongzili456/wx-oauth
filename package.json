@@ -1,12 +1,13 @@
 {
   "name": "wx-oauth",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {},
   "author": "LiuGuili <gongzili456@gmail.com> (http://geeekr.com)",
   "license": "ISC",
   "dependencies": {
+    "assert": "^1.4.1",
     "co-request": "^1.0.0"
   },
   "devDependencies": {
