@@ -1,6 +1,6 @@
 {
   "name": "wx-oauth",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "",
   "main": "./lib/wx_oauth",
   "scripts": {
