@@ -1,1 +1,1 @@
-export default './lib/wx_oauth'
+require('./dist/wx_oauth')
