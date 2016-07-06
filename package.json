@@ -1,32 +1,33 @@
 {
-	"name": "wx-oauth",
-	"version": "1.0.6",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"compile": "babel -d dist/ lib/"
-	},
-	"author": "LiuGuili <gongzili456@gmail.com> (http://geeekr.com)",
-	"license": "ISC",
-	"dependencies": {
-		"assert": "^1.4.1",
-		"co-request": "^1.0.0"
-	},
-	"devDependencies": {
-		"babel-cli": "^6.4.5",
-		"babel-core": "^6.3.17",
-		"babel-eslint": "^5.0.0-beta6",
-		"babel-loader": "^6.2.0",
-		"babel-plugin-add-module-exports": "^0.1.1",
-		"babel-plugin-transform-runtime": "^6.3.13",
-		"babel-polyfill": "^6.3.14",
-		"babel-preset-es2015": "^6.3.13",
-		"babel-preset-stage-0": "^6.3.13",
-		"babel-preset-stage-3": "^6.3.13",
-		"babel-register": "^6.3.13",
-		"babel-runtime": "^6.3.19",
-		"debug": "^2.2.0",
-		"eslint": "^1.10.3",
-		"mocha": "^2.4.5"
-	}
+  "name": "wx-oauth",
+  "version": "1.0.7",
+  "description": "",
+  "main": "./lib/wx_oauth",
+  "scripts": {
+    "compile": "babel -d lib/ src/"
+  },
+  "author": "LiuGuili <gongzili456@gmail.com> (http://geeekr.com)",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "co-request": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-core": "^6.3.17",
+    "babel-eslint": "^5.0.0-beta6",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-add-module-exports": "^0.1.1",
+    "babel-plugin-transform-runtime": "^6.3.13",
+    "babel-polyfill": "^6.3.14",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "babel-preset-stage-3": "^6.3.13",
+    "babel-register": "^6.3.13",
+    "babel-runtime": "^6.3.19",
+    "debug": "^2.2.0",
+    "eslint": "^1.10.3",
+    "koa": "^1.2.0",
+    "mocha": "^2.4.5"
+  }
 }
