@@ -6,7 +6,7 @@
 import request from 'co-request';
 import _debug from 'debug';
 
-const debug = _debug('app:lib:wxhelper:');
+const debug = _debug('wx_oauth:lib:wxhelper:');
 const access_token_storage = null;
 
 /**

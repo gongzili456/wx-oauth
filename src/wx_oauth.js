@@ -3,7 +3,7 @@ import _debug from 'debug';
 import assert from 'assert';
 import * as wxhelper from './wxhelper';
 
-const debug = _debug('app:lib:wx_oauth:');
+const debug = _debug('wx_oauth:lib:wx_oauth:');
 
 export default function (options, callback) {
   // verify options
