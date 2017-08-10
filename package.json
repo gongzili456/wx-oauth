@@ -1,8 +1,8 @@
 {
   "name": "wx-oauth",
-  "version": "1.1.4",
-  "description": "",
-  "main": "./lib/wx_oauth",
+  "version": "1.1.5",
+  "description": "sign with wechat, support open platform & media(public) platform",
+  "main": "./lib/wx_oauth.js",
   "scripts": {
     "compile": "babel -d lib/ src/",
 		"prepublish": "npm run compile"
