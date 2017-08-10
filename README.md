@@ -2,6 +2,12 @@
 
   Get wechat userinfo and set koa context variable named `_wechat_userinfo`
 
+# Config
+```
+appid: {your appid}
+appsecret: {your appsecret}
+```
+
 # Usage
 
 ```
