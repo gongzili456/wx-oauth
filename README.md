@@ -6,7 +6,7 @@
 
 ```
   const koa = require('koa')
-  const wxOauth = require('wx_oauth')
+  const wxOauth = require('wx-oauth')
   const app = koa()
 
   app.use(wxOauth({}, function() {
